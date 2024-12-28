@@ -2,6 +2,11 @@
 HEADER !!! UWU 
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* General Reset */
 body, html {
     margin: 0;
@@ -192,7 +197,7 @@ HERO  xD
 .hero {
     position: relative;
     height: 80vh; /* Alto ajustable según prefieras */
-    background: url('herofoto.jpg') no-repeat center center/cover; /* Imagen god */
+    background: url('/assets/img/herofoto.jpg') no-repeat center center/cover; /* Imagen god */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -454,3 +459,6 @@ textarea {
         flex-direction: column;
     }
 }
+
+
+
